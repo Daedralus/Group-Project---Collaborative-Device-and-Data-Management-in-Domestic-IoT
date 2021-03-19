@@ -1,0 +1,24 @@
+{ 
+    "_id" : ObjectId("5e543d589426c57d4da5c17b"), 
+    "NAME" : "Mom", 
+    "ROLE" : "Resident", 
+    "MASTER" : "True"
+}
+{ 
+    "_id" : ObjectId("5e543d5d9426c57d4da5c17c"), 
+    "NAME" : "Dad", 
+    "ROLE" : "Resident", 
+    "MASTER" : "True"
+}
+{ 
+    "_id" : ObjectId("5e543d689426c57d4da5c17d"), 
+    "NAME" : "Son", 
+    "ROLE" : "Resident", 
+    "MASTER" : "False"
+}
+{ 
+    "_id" : ObjectId("5e543d6e9426c57d4da5c17e"), 
+    "NAME" : "Daughter", 
+    "ROLE" : "Resident", 
+    "MASTER" : "False"
+}

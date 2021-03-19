@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Members</title>
+    <!--Styles-->
+    <link rel="stylesheet" href="/Frontend/styles/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="/Frontend/styles/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Scripts-->
+    <script type="" src="/scripts/scripts.js"></script>
+    <script src="/scripts/JQuery/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+    <!-- Remove member page -->
+        <!--Start of Remove Members Page (If it's not showing, check css for display:none)-->
+        <div id="member-rmv" data-role="page" >
+            <div data-role="header" class="header">
+                <div class="header-left">
+                    <a href="managemembers.html" data-prefetch><i class="material-icons">arrow_back</i></a>
+                </div>
+                <h1>Manage Members</h1>
+            </div>
+            <!-- /header -->
+        <div role="main"> 
+            <form action="removeMember()">
+                <div class="list-container">
+                    <h2>Member List</h2>
+                    
+                    
+                    <ul id="remove-member-list" data-role="listview" data-filter="true" data-filter-placeholder="Search for a member" data-inset="true">
+                        <!--List element for members to fetch from database-->
+                        <li onclick="">Dummy Member</li>
+                    </ul>
+                </div>
+                <div class="btn-container">
+                    <input type="submit" value="Request Removal">
+                </div>
+            </form>     
+        </div>
+        </div>
+        <!--End of remove member page-->
+    <script>
+        var mem = document.querySelector("#remove-member-list li");
+    </script>
+</body>
+</html>

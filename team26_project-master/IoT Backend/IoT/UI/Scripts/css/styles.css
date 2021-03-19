@@ -1,0 +1,148 @@
+/*Pages*/
+#member-rmv{
+    z-index: 1;
+    text-align: center;
+    display: block;
+}
+#home{
+    z-index: 0;
+    display: block;
+    text-align: center;
+}
+
+#member-add{
+    z-index: 0;
+    display: block;
+    text-align: center;
+}
+#member-mng{
+    z-index: 0;
+    display: block;
+    text-align: center; 
+}
+
+
+
+/*Page elements*/
+.header{
+    /*Positioning*/
+    width: auto;
+    left: 0;
+    right: 0;
+    height: auto;
+
+    /*Display*/
+    padding: 10px;
+    margin-bottom: 50px;
+
+    /*Colour*/
+    background-color: #4BA3C3;
+    text-align: left;
+    
+}
+.header h1{
+    text-align: center;
+}
+
+.header-left{
+    position: relative;
+    width: fit-content;
+}
+
+.btn-container{
+    /*Positioning*/
+    width: auto;
+    height: auto;
+    /*display*/
+    text-align: center;
+    
+}
+.ui-btn{
+    font-size: 16px;
+}
+@media only screen and (max-width: 400px){
+    .ui-btn{
+        font-size: 14px;
+    }
+    input[type=submit]{
+        font-size: 14px;
+    }
+}
+
+.homebtn{
+    /*Positioning*/
+    max-width: 50%;
+    height: 60px;
+    margin-bottom: 95;
+    position: relative;
+    left: 25%;
+    /*Display*/
+
+    /*Colouring*/
+    text-decoration: none;
+    background-color: #449DD1;
+
+    /*Child styling*/
+    
+}
+input[type=submit]{
+    /*Positioning*/
+    max-width: 50%;
+    height: 60px;
+    margin-bottom: 95;
+    position: relative;
+    left: 0;
+    /*Display*/
+    border: none;
+    font-size: 16px;
+    /*Colouring*/
+    text-decoration: none;
+    background-color: #449DD1;
+    color: #0E0E52;
+    font-weight: 500;
+}
+.list-container{
+    /*Positioning*/
+    width: 87%;
+    position: relative;
+    left: 6.5%;
+    height: 390px;
+
+    /*display*/
+    overflow: scroll;
+
+    /*Colour*/
+    background-color: #78C0E0;
+}
+
+/*UI Elements*/
+button{
+    /*Display*/
+    border-radius: 10px;
+    /*Colour*/
+    color: #0E0E52;
+}
+
+/*Text elements*/
+h1{
+    color: #0E0E52;
+}
+h2{
+    color: #0E0E52;
+}
+h3{
+    color: #0E0E52;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    text-align: center;
+}
+li{
+    list-style-type: none;
+}
+li .active{
+    color: #D62839;
+}
+

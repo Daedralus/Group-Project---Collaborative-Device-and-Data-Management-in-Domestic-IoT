@@ -1,0 +1,42 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Smart Lock Manager</title>
+        <!--Styles-->
+        <link rel="stylesheet" href="/Frontend/styles/jquery.mobile-1.4.5.css">
+        <link rel="stylesheet" href="/Frontend/styles/styles.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!--Scripts-->
+        <script type="" src="/scripts/scripts.js"></script>
+        <script src="/scripts/JQuery/jquery.mobile-1.4.5.min.js"></script>
+    </head>
+    <body>
+        <!--Each Page takes on the following structure. All Pages will be contained within this document. The current page will display on top of the others-->
+        <!--Start of Home Page-->
+        <!--Start of Home Page (If it's not showing, check css for display:none)-->
+
+        <div id="Home" data-role="page">
+            <div data-role="header" class="header">
+                <h1>Smart Lock Manager</h1>
+            </div>
+            <!-- /header -->
+            <div role="main" class="ui-content">
+                <div class="btn-container">
+                    <!--*** Navigation buttons to other pages using ajax here ***-->
+                    <button class="ui-btn homebtn" id="manage-mem-btn" onclick="window.location.href = 'managemembers.html'">Manage Members</button>
+                    <button class="ui-btn homebtn" id="active-req-btn" onclick="">Active Requests</button>
+                    <button class="ui-btn homebtn" id="live-fd-btn" onclick="">Live Feed</button>
+                    <button class="ui-btn homebtn" id="logs-btn" onclick="">Logs</button>
+                </div>
+            </div>
+            <!-- /content -->
+        </div>
+        <!-- End of Home Page -->
+
+
+    
+
+</body>
+</html>

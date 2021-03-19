@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Members</title>
+    <!--Styles-->
+    <link rel="stylesheet" href="/Frontend/styles/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="/Frontend/styles/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Scripts-->
+    <script type="" src="/scripts/scripts.js"></script>
+    <script src="/scripts/JQuery/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <!--Start of Manage Members Page-->
+
+    <div id="member-mng" data-role="page">
+        <div data-role="header" class="header">
+            <div class="header-left">
+                <a href="index.html"><i class="material-icons">arrow_back</i></a>
+            </div>
+            <h1>Manage Members</h1>
+        </div>
+        <!-- /header -->
+        <div role="main" class="ui-content">
+            <div class="btn-container">
+                <!--*** Navigation buttons to other pages using ajax here ***-->
+                <button class="ui-btn homebtn" id="manage-mem-btn" onclick="window.location.href = 'addmembers.html'">Add Members</button>
+                <button class="ui-btn homebtn" id="active-req-btn" onclick="window.location.href = 'removemembers.html'" >Remove Members</button>
+                <button class="ui-btn homebtn" id="live-fd-btn" onclick="window.location.href = 'listmembers.html'">List Members</button>
+            </div>
+        </div>
+        <!-- /content -->
+    </div>
+    <!-- End of Manage Members Page -->
+</body>
+</html>

@@ -1,0 +1,101 @@
+/*Pages*/
+#member-rmv{
+    z-index: 1;
+    text-align: center;
+    display: none;
+}
+#home{
+    z-index: 0;
+    /*display: none;*/
+    text-align: center;
+}
+
+#member-add{
+    z-index: 0;
+    display: none;
+    text-align: center;
+}
+
+
+
+/*Page elements*/
+.header{
+    /*Positioning*/
+    width: auto;
+    left: 0;
+    right: 0;
+    height: auto;
+
+    /*Display*/
+    padding: 10px;
+    margin-bottom: 50px;
+
+    /*Colour*/
+    background-color: #4BA3C3;
+    text-align: center;
+    
+}
+.btn-container{
+    /*Positioning*/
+    width: auto;
+    height: auto;
+    /*display*/
+    text-align: center;
+    
+}
+.ui-btn{
+    font-size: 16px;
+}
+
+.homebtn{
+    /*Positioning*/
+    max-width: 50%;
+    height: 60px;
+    margin-bottom: 95;
+    position: relative;
+    left: 25%;
+    /*Display*/
+
+    /*Colouring*/
+    text-decoration: none;
+    background-color: #449DD1;
+
+    /*Child styling*/
+    
+}
+.list-container{
+    /*Positioning*/
+    width: 87%;
+    position: relative;
+    left: 6.5%;
+    height: 390px;
+
+    /*display*/
+    overflow: scroll;
+
+    /*Colour*/
+    background-color: #78C0E0;
+}
+
+/*UI Elements*/
+button{
+    /*Display*/
+    border-radius: 10px;
+    /*Colour*/
+    color: #0E0E52;
+}
+
+/*Text elements*/
+h1{
+    color: #0E0E52;
+}
+h2{
+    color: #0E0E52;
+}
+h3{
+    color: #0E0E52;
+}
+a{
+    text-decoration: none;
+}
+

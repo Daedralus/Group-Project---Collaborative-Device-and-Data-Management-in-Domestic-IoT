@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Members</title>
+    <!--Styles-->
+    <link rel="stylesheet" href="/Frontend/styles/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="/Frontend/styles/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Scripts-->
+    <script type="" src="/scripts/scripts.js"></script>
+    <script src="/scripts/JQuery/jquery.mobile-1.4.5.min.js"></script>
+    
+</head>
+<body>
+    <!--Each Page takes on the following structure. All Pages will be contained within this document. The current page will display on top of the others-->
+    <!--Start of Add Members Page -->
+    <div id="member-add" data-role="page">
+        <div data-role="header" class="header">
+            <div class="header-left">
+                <a href="managemembers.html" data-prefetch><i class="material-icons">arrow_back</i></a>
+            </div>
+            <h1>Add Members</h1>
+        </div>
+        <!-- /header -->
+        <div role="main" class="ui-content">
+            <div class="home-btn-container">
+                <button class="ui-btn homebtn" id="onetime-entry-btn" onclick="">One Timed Entry Members</button>
+                <button class="ui-btn homebtn" id="timedaccess-btn" onclick="">Timed Access Members</button>
+                <button class="ui-btn homebtn" id="permanent-member-btn" onclick="">Permanent Members</button>
+                <button class="ui-btn homebtn" id="security-member-btn" onclick="">Security Members</button>
+                <button class="ui-btn homebtn" id="trusted-member-btn" onclick="">Trusted Members</button>
+            </div>
+        </div>
+        <!-- /content -->
+    </div>
+    <!-- End of Add Members Page -->
+</body>
+</html>

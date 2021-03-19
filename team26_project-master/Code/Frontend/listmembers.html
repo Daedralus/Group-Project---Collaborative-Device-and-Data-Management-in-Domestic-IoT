@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List Members</title>
+    <!--Styles-->
+    <link rel="stylesheet" href="/Frontend/styles/jquery.mobile-1.4.5.css">
+    <link rel="stylesheet" href="/Frontend/styles/styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--Scripts-->
+    <script type="" src="/scripts/scripts.js"></script>
+    <script src="/scripts/JQuery/jquery.mobile-1.4.5.min.js"></script>
+
+</head>
+<body>
+    <!-- List member page -->
+        <div id="member-lst" data-role="page">
+            <div data-role="header" class="header">
+                <div class="header-left">
+                    <a href="managemembers.html" data-prefetch><i class="material-icons">arrow_back</i></a>
+                </div>
+                <h1>MemberList</h1>
+            </div>
+            <!-- /header -->
+            <div role="main"> 
+                <div class="list-container">
+                    <h2>Member List</h2>
+                    <ul id="member-list" data-role="listview" data-filter="true" data-inset="true">
+                        <!--List element for members to fetch from database-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--End of List member page-->
+</body>
+</html>

@@ -1,0 +1,17 @@
+Home Screen - I
+Manage members:
+	Add member: - Z
+		Temporary member
+			One time entry
+			Timed access
+		Permanent member
+		Security member 
+		Trusted member 
+	Remove member - I
+	List members - I
+Active requests - Z
+	Removals - Requests to remove members
+	Additions - Requests to add other members
+Live feed - I
+Log of people who entered house/ times door was opened - Z
+Messages - Z

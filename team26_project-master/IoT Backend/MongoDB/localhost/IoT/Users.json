@@ -1,0 +1,36 @@
+{ 
+    "_id" : ObjectId("5e3578d59245223273e1b3c2"), 
+    "ROLES" : "RESIDENT", 
+    "MASTER" : "TRUE", 
+    "ID" : NumberInt(1)
+}
+{ 
+    "_id" : ObjectId("5e3578ea9245223273e1b3c3"), 
+    "ROLES" : "SAFETY", 
+    "MASTER" : "FALSE", 
+    "ID" : NumberInt(3)
+}
+{ 
+    "_id" : ObjectId("5e3578f89245223273e1b3c4"), 
+    "ROLES" : "TRUSTED", 
+    "MASTER" : "FALSE", 
+    "ID" : NumberInt(2)
+}
+{ 
+    "_id" : ObjectId("5e3579129245223273e1b3c5"), 
+    "ROLES" : "TEMP", 
+    "MASTER" : "FALSE", 
+    "ID" : NumberInt(4)
+}
+{ 
+    "_id" : ObjectId("5e35794a9245223273e1b3c6"), 
+    "ROLES" : "GUEST", 
+    "MASTER" : "FALSE", 
+    "ID" : NumberInt(5)
+}
+{ 
+    "_id" : ObjectId("5e3579719245223273e1b3c8"), 
+    "ROLES" : "ONE-TIME", 
+    "MASTER" : "FALSE", 
+    "ID" : NumberInt(6)
+}
